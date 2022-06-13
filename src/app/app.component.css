@@ -1,0 +1,28 @@
+.btn-div {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+#books {
+  width: 100%;
+  padding-right: 15px;
+}
+h1 {
+  color: darkgreen;
+}
+
+#books td, #books th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/*#books tr:nth-child(even){background-color: #f2f2f2;}*/
+
+#books tr:hover {background-color: #ddd;}
+
+#books th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: white;
+}
